@@ -97,6 +97,19 @@ nav {
     margin-left: 10px;
 }
 
+.results a:first-child {
+    color: #1a73e8;
+}
+
+.results::before {
+    content: "";
+    width: 45px;
+    position: absolute;
+    top: 110px;
+    left: 195px;
+    border-bottom: 4px solid #1a73e8;
+}
+
 nav a {
     text-decoration: none;
     color: #5f6368;
