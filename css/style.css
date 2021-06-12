@@ -374,3 +374,7 @@ article {
 #view-more:hover {
     background-color: #f8f9fa;
 }
+
+.bottom-results {
+    margin-top: 20px;
+}
