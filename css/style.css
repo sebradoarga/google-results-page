@@ -120,11 +120,63 @@ nav a {
     color: #5f6368;
     position: relative;
     top: 10px;
-    left: 185px;
+    left: 186px;
     font-size: 14px;
 }
 
 main {
     display: flex;
     flex-direction: column;
+}
+
+main * {
+    margin-left: 62px;
+    width: 650px;
+}
+
+main a {
+    text-decoration: none;
+}
+
+.title:hover {
+    text-decoration: underline;
+}
+
+h2 {
+    color: #1a0dab;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight:400;
+}
+
+.title {
+    display: block;
+    margin-top: -10px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
+
+article p {
+    display: block;
+    margin-top: -10px;
+    color: #5f6368;
+}
+
+.top-results {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+article {
+    margin-top: 20px;
+}
+
+.first-link {
+    color: #222;
+}
+
+.second-link {
+    color: #5f6368;
+    margin-left: 0px;
 }
