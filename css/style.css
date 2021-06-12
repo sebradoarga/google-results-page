@@ -123,3 +123,8 @@ nav a {
     left: 185px;
     font-size: 14px;
 }
+
+main {
+    display: flex;
+    flex-direction: column;
+}
