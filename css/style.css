@@ -6,6 +6,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 20px 25px;
 }
 
 input {
@@ -13,20 +14,20 @@ input {
     font-size: 16px;
     line-height: 34px;
     outline: none;
-    height: 34px;
+    height: 50px;
     width: 500px;
     color: #222;
 }
 
 #search, #mic {
-    width: 20px;
-    height: 20px;
+    height: 25px;
+    padding-right: 10px;
 }
 
 #searchbar {
     border: 1px solid #dfe1e5;
     border-radius: 24px;
-    width: 580px;
+    min-width: 580px;
 }
 
 #searchbar:hover {
@@ -49,4 +50,20 @@ input {
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-left: 50px;
+    padding-left: 20px;
+}
+
+#profile-pic {
+    border-radius: 50%;
+}
+
+.profile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.profile * {
+    margin-left: 20px;
 }
