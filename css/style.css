@@ -1,3 +1,8 @@
+body {
+    font-family: arial, sans-serif;
+    font-size: 14px;
+}
+
 #logo {
     width:100px;
 }
@@ -14,13 +19,13 @@ input {
     font-size: 16px;
     line-height: 34px;
     outline: none;
-    height: 50px;
+    height: 40px;
     width: 500px;
     color: #222;
 }
 
 #search, #mic {
-    height: 25px;
+    height: 22px;
     padding-right: 10px;
 }
 
@@ -66,4 +71,34 @@ input {
 
 .profile * {
     margin-left: 20px;
+}
+
+.results a img {
+    height: 20px;
+    margin-right: 5px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.results {
+    display: flex;
+    flex-direction: row;
+    margin-right: 100px;
+    margin-left: 178px;
+}
+
+.results a {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #5f6368;
+    margin-right: 17px;
 }
