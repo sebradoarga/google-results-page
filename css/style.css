@@ -84,6 +84,10 @@ nav {
     align-items: center;
 }
 
+.tools {
+    white-space: nowrap;
+}
+
 .results {
     display: flex;
     flex-direction: row;
@@ -127,11 +131,11 @@ nav a {
 main {
     display: flex;
     flex-direction: column;
+    width: 850px;
 }
 
 main * {
     margin-left: 62px;
-    width: 650px;
 }
 
 main a {
@@ -179,4 +183,194 @@ article {
 .second-link {
     color: #5f6368;
     margin-left: 0px;
+}
+
+.image-results img {
+    height: 20px;
+    width: auto;
+}
+
+.image-results {
+    display: flex;
+    flex-direction: column;
+}
+
+.image-results a{
+    color: #222;
+    display: flex;
+    align-items: center;
+}
+
+.image-results a p {
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.image-results a p:hover {
+    color: #1a0dab;
+}
+
+.img-related-searches {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.related-search {
+    margin-left: 10px;
+    height: 30px;
+    border: 1px solid #dadce0;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.related-search:hover{
+    background-color: #f8f9fa;
+}
+
+.related-search:first-child {
+    margin-left: 62px;
+}
+
+.related-search a {
+    margin: 0;
+    padding-right: 10px;
+}
+
+.related-search a p:hover {
+    text-decoration: none;
+    color:#222;
+}
+
+.related-search div, #expand {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+}
+
+.related-search a p {
+    font-size: 14px;
+}
+
+#webflow {
+    background-image: url("../img/result1.jpg");
+}
+
+#weebly {
+    background-image: url("../img/result4.png");
+}
+
+#personal {
+    background-image: url("../img/result4.jpg");
+}
+#mobirise {
+    background-image: url("../img/result5.png");
+}
+#google {
+    background-image: url("../img/googlelogo_color_272x92dp.png");
+}
+
+#expand {
+    margin-left: 15px;
+    border: 1px solid #dadce0;
+    border-radius: 50%;
+}
+
+.img-related-searches a {
+    margin:0;
+}
+
+.large-images {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.largeimage{
+    height: 130px;
+    width: 174px;
+    background-size: cover;
+    background-position: center;
+}
+
+.largeimage:not(#first-image){
+    margin-left:1px;
+}
+
+.large-images:not(.large-images:first-child){
+    margin-left:1px;
+}
+
+.large-images a:not(.large-images a:first-child) {
+    margin-left: 0;
+}
+
+#first-image{
+    background-image: url("../img/result1.jpg");
+}
+
+#second-image{
+    background-image: url("../img/result2.jpg");
+}
+
+#third-image{
+    background-image: url("../img/googlelogo_color_272x92dp.png");
+}
+
+#fourth-image{
+    background-image: url("../img/result3.png");
+}
+
+#forward {
+    display: block;
+    margin-left: -15px;
+    padding: 7px;
+    border: 1px solid #dadce0;
+    border-radius: 50%;
+    background: white;
+    opacity: 0.85;
+}
+
+#forward:hover {
+    opacity: 1;
+}
+
+.image-results::before{
+    content:"";
+    width:705px;
+    border-bottom: 1px solid #dadce0;
+    position: absolute;
+    top: 1020px;
+    left: 185px;
+}
+
+#view-more{
+    background: white;
+    width: 200px;
+    border: 1px solid #dadce0;
+    border-radius: 400px;
+    margin-left: 380px;
+    cursor: pointer;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    height: 40px;
+}
+
+#view-more p{
+    margin-left: 45px;
+    color: #1a73e8;
+}
+
+#view-more img{
+    margin-left: 5px;
+}
+
+#view-more:hover {
+    background-color: #f8f9fa;
 }
