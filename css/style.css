@@ -115,3 +115,11 @@ nav a {
     color: #5f6368;
     margin-right: 17px;
 }
+
+.more-results {
+    color: #5f6368;
+    position: relative;
+    top: 10px;
+    left: 185px;
+    font-size: 14px;
+}
