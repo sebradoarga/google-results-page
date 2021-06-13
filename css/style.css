@@ -619,3 +619,11 @@ h3{
 .o-group .number:hover, #next p:hover {
     text-decoration: underline;
 }
+
+#one {
+    color: #222;
+}
+
+#one:hover {
+    text-decoration: none;
+}
