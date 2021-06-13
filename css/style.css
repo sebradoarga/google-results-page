@@ -512,3 +512,44 @@ h3{
     margin-left: 5px;
     color: #222;
 }
+
+#other-searches a img {
+    width: 20px;
+    height: auto;
+}
+
+#other-searches {
+    margin-top: 50px;
+    display: flex;
+    width: 800px;
+    flex-wrap: wrap;
+    margin-left: 124px;
+    align-items: center;
+}
+
+#other-searches * {
+    margin: 0;
+}
+
+#other-searches a {
+    display: flex;
+    width: 260px;
+    align-items: center;
+    height: 50px;
+    background: #f1f3f4;
+    margin-right: 30px;
+    margin-top: 10px;
+    border-radius: 50px;
+    padding: 2px 20px;
+}
+
+#other-searches p {
+    color: #222;
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: 23px;
+}
+
+#other-searches p:hover {
+    text-decoration: underline;
+}
