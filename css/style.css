@@ -377,4 +377,97 @@ article {
 
 .bottom-results {
     margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+h3{
+    margin-left: 123px;
+    color: #222;
+    font-size: 21px;
+    font-weight:300;
+}
+
+#subtitle{
+    margin-left: 123px;
+    color: #222;
+    font-size: 16px;
+}
+
+.related-searches::before{
+    content:"";
+    width: 700px;
+    border-bottom: 25px solid green;
+}
+
+#title a, #title a *{
+    margin: 0;
+}
+
+#title img {
+    width: auto;
+    height: 70px;
+    border-radius: 5px;
+}
+
+#title a{
+    display:flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.text-box {
+    color: #5f6368;
+    border: 1px solid #dadce0;
+    border-radius: 8px;
+    margin-left: 124px;
+    padding-top: 10px;
+}
+
+.text-box::before{
+    content:"";
+    width: 663px;
+    border-bottom: 1px solid #dadce0;
+    position: absolute;
+    top: 1856px;
+}
+
+.text-box *{
+    padding-left: 0px;
+}
+
+#title #text {
+    font-weight: 300;
+    margin-left: 20px;
+}
+
+#title #text h4 {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #222;
+}
+
+#title #text h5 {
+    font-size: 12px;
+    font-weight: lighter;
+    margin-top: 15px;
+    color: #5f6368;
+}
+
+.text-box p {
+    margin-top: 40px;
+    margin-left: 20px;
+    padding-right: 20px;
+}
+
+.text-box p a {
+    margin:0;
+}
+
+.text-box p a:hover{
+    text-decoration: underline;
+}
+
+#title {
+    margin-left: 20px;
 }
