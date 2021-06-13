@@ -394,12 +394,6 @@ h3{
     font-size: 16px;
 }
 
-.related-searches::before{
-    content:"";
-    width: 700px;
-    border-bottom: 25px solid green;
-}
-
 #title a, #title a *{
     margin: 0;
 }
@@ -470,4 +464,51 @@ h3{
 
 #title {
     margin-left: 20px;
+}
+
+.related-searches .container{
+    margin: 0;
+}
+
+.container::before{
+    content:"";
+    width: 663px;
+    height:300px;
+    border-top: 1px solid #dadce0;
+    border-bottom: 1px solid #dadce0;
+    position:absolute;
+    top:1710px;
+    left: 185px;
+}
+
+.container button {
+    width: 154px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 385px;
+    border: 1px solid #dadce0;
+    border-radius: 20px;
+    background: transparent;
+    padding: 20px 15px;
+}
+
+.container button:hover {
+    cursor: pointer;
+}
+
+.container button img {
+    width: 20px;
+    height: auto;
+}
+
+.container button * {
+    margin: 0;
+    z-index: 0;
+}
+
+.container button p {
+    margin-left: 5px;
+    color: #222;
 }
