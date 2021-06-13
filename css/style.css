@@ -424,10 +424,10 @@ h3{
 
 .text-box::before{
     content:"";
-    width: 663px;
+    width: 638px;
     border-bottom: 1px solid #dadce0;
     position: absolute;
-    top: 1900px;
+    top: 1845px;
 }
 
 .text-box *{
@@ -477,11 +477,11 @@ h3{
 .container::before{
     content:"";
     width: 663px;
-    height:360px;
+    height:295px;
     border-top: 1px solid #dadce0;
     border-bottom: 1px solid #dadce0;
     position:absolute;
-    top:1710px;
+    top:1700px;
     left: 185px;
 }
 
@@ -635,7 +635,7 @@ h3{
 
 footer {
     margin-top: 40px;
-    height: 25px;
+    height: 55px;
     background: #f2f2f2;
 }
 
